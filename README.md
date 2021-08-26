@@ -27,12 +27,6 @@ Dependencies are listed at the beginning of the code:
 ```
 
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-
-
 ## Version History
 
 * 0.1
