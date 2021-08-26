@@ -34,4 +34,4 @@ Dependencies are listed at the beginning of the code:
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under The Unlicense License - see the LICENSE.md file for details
