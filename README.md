@@ -4,41 +4,34 @@ This repository builds a simple number guessing game in C.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This program builds a guessing game where the software chooses a random integer betwwen 1-100. Then, the user guesses the number, while the software hints if the input is too low or too high. Once the guess is correct, the program outputs the number of attempts it took. It could be improved by stopping the loop if a maximum number of guesses is reached.
+
+If you want to change te range for the random integer, modify the line:
+
+```
+int number = rand() % 100 + 1;
+```
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+You will need a C compiler (as Visual Studio) - or an online editor would work too.
+Dependencies are listed at the beginning of the code:
 
-### Installing
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <stdbool.h>
+```
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
