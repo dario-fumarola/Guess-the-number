@@ -4,9 +4,9 @@ This repository builds a simple number guessing game in C.
 
 ## Description
 
-This program builds a guessing game where the software chooses a random integer betwwen 1-100. Then, the user guesses the number, while the software hints if the input is too low or too high. Once the guess is correct, the program outputs the number of attempts it took. It could be improved by stopping the loop if a maximum number of guesses is reached.
+This program builds a guessing game where the software chooses a random integer between 1-100. Then, the user guesses the number, while the software hints if the input is too low or too high. Once the guess is correct, the program outputs the number of attempts it took. It could be improved by stopping the loop if a maximum number of guesses is reached.
 
-If you want to change te range for the random integer, modify the line:
+If you want to change the range for the random integer, modify the line:
 
 ```
 int number = rand() % 100 + 1;
