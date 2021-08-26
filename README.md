@@ -1,6 +1,6 @@
 # Guess the number
 
-Simple overview of use/purpose.
+This repository builds a simple number guessing game in C.
 
 ## Description
 
